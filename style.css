@@ -1,0 +1,41 @@
+body {
+    margin-top: 0px;
+    padding-bottom: 160px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 70px;
+    font-size: 1rem;
+    color: #403F3F;
+    font-family: "굴림", "돋움", "Arial";
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border: 1px solid powderblue;
+    text-align: center;
+    padding: 2px;
+}
+.item1 {
+    display: grid;
+    font-size: 1rem;
+    
+}
+.item2 {
+    display: grid;
+    padding: 2px;
+    font-size: 1rem;
+}
+.item3 {
+    display: grid;
+    padding: 2px;
+    font-size: 1rem;    
+}
+.myaccount {
+    text-align: center;
+    font-size: 60px;
+}
+.writeContents{
+    font-size: 25px;
+    color: #403F3F;
+    font-family: "굴림", "돋움", "Arial";
+}
