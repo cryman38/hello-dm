@@ -15,6 +15,13 @@ body {
     text-align: center;
     padding: 2px;
 }
+.grid-container-work {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border: 1px solid powderblue;
+    text-align: center;
+    padding: 2px;
+}
 .item1 {
     display: grid;
     font-size: 1rem;
