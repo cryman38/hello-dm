@@ -8,7 +8,16 @@ body {
     color: #403F3F;
     font-family: "굴림", "돋움", "Arial";
 }
-.grid-container {
+.pageitem1 {grid-area: a; border: 1px solid powderblue;}
+.pageitem2 {grid-area: b; border: 1px solid powderblue;}
+
+.grid-container-top {
+    display: grid;
+    grid-template-areas: 'a a a a a b';
+    padding: 2px;
+    border: 1px solid powderblue;
+}
+.grid-container-contents {
     display: grid;
     grid-template-columns: 5fr 1fr;
     border: 1px solid powderblue;
@@ -46,3 +55,9 @@ body {
     color: #403F3F;
     font-family: "굴림", "돋움", "Arial";
 }
+
+
+ 
+
+    
+    
