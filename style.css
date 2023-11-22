@@ -20,16 +20,17 @@ body {
 .image1 {
     grid-area: a;
 }
-
 .image2 {
     grid-area: b;
 }
-
 .image3 {
     grid-area: c;
 }
 .image4 {
     grid-area: d;
+}
+.image5 {
+    grid-area: e;
 }
 .img-container {
     display: grid;
@@ -38,6 +39,7 @@ body {
     'a'
     'b'
     'c'
-    'd';
+    'd'
+    'e';
 
 }
