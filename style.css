@@ -1,65 +1,44 @@
 body {
-    margin-top: 0px;
-    padding-bottom: 160px;
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-top: 70px;
-}    
-.pageitem1 {
-    display: flex;
-    align-content: center;
-}
-.pageitem2 {
-    display: flex;
-    align-items: center;
-    font-size: 0.8rem;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
-.flex-container-top {
+.itmes1 {grid-area: header;}
+.itmes2 {
+    grid-area: menu;
+}
+.flex-container {
     display: flex;
     justify-content: space-between;
-}
-.grid-container-contents {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    border: 1px solid powderblue;
-    text-align: center;
-    padding: 2px;
-}
-.grid-container-work {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    border: 1px solid powderblue;
-    text-align: center;
-    padding: 2px;
-}
-.item1 {
-    display: grid;
-    font-size: 1rem;
+    align-items: end;
     
 }
-.item2 {
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image1 {
+    grid-area: a;
+}
+
+.image2 {
+    grid-area: b;
+}
+
+.image3 {
+    grid-area: c;
+}
+.image4 {
+    grid-area: d;
+}
+.img-container {
     display: grid;
-    padding: 2px;
-    font-size: 1rem;
-}
-.item3 {
-    display: grid;
-    padding: 2px;
-    font-size: 1rem;    
-}
-.myaccount {
-    text-align: center;
-    font-size: 1rem;
-}
-.writeContents{
-    font-size: 25px;
-    color: #403F3F;
-    font-family: "굴림", "돋움", "Arial";
-}
+    grid-template-columns: 5fr;
+    grid-template-areas: 
+    'a'
+    'b'
+    'c'
+    'd';
 
-
- 
-
-    
-    
+}
