@@ -1,6 +1,7 @@
 body {
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom: 100px;
 }
 
 .itmes1 {grid-area: header;}
