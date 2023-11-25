@@ -4,8 +4,8 @@ body {
 }
 #floatdiv {
     position: fixed;
-    width: 19px;
-    height: 21px;
+    width: 190px;
+    height: 210px;
     right: 250px;
     z-index: 999px;
 }
@@ -52,7 +52,7 @@ body {
     'aaa';
 }
 .header {
-    object-fit: scale-down;
+    object-fit: cover;
 }
 .header1 {
     grid-area: aaa;
@@ -207,4 +207,9 @@ body {
 }
 .footer2 {
     grid-area: bbbb;
+}
+@media(max-width:500px) {
+    body {
+        display: block;
+    }
 }
