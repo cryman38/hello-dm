@@ -2,6 +2,13 @@ body {
     display: flex;
     justify-content: center;
 }
+#floatdiv {
+    position: fixed;
+    width: 19px;
+    height: 21px;
+    right: 250px;
+    z-index: 999px;
+}
 
 /* Grid Layout */
 #a {
