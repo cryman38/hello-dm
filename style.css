@@ -2,6 +2,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* float */
 #floatdiv {
     position: fixed;
     width: 190px;
@@ -74,7 +76,8 @@ body {
     'e'
     'f'
     'g'
-    'h';
+    'h'
+    'i';
 }
 .menu {
     width: 100%;
@@ -101,6 +104,9 @@ body {
 }
 .menu8 {
     grid-area: h;
+}
+.menu9 {
+    grid-area: i;
 }
 .text1 {
     grid-area: text1;
@@ -189,7 +195,7 @@ body {
 /* Footer */
 .container4 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     gap: 0rem;
     padding: 0rem;
@@ -208,6 +214,7 @@ body {
 .footer2 {
     grid-area: bbbb;
 }
+
 @media(max-width:500px) {
     body {
         display: block;
